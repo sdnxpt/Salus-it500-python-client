@@ -58,7 +58,6 @@ class SalusAPI:
         body = self.request_url_to('getDeviceAttributesWithValues', self._device)
         new_device_info = xmltodict.parse(body).get('ns1:getDeviceAttributesWithValuesResponse')
         if not new_device_info:
-            print(new_device_info)
             return False
         else:
             self._device_info = new_device_info
