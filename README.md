@@ -1,2 +1,2 @@
-# Salus-it500-python-client
-python client for Salust it500 thermostat
+# Salus it500 python client
+This is a simple python client for Salus IT500 thermostat.
