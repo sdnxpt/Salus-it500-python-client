@@ -1,7 +1,5 @@
 import requests
 import xmltodict
-import pprint
-
 
 HOST = 'https://salus-api.arrayent.com:8081'
 
